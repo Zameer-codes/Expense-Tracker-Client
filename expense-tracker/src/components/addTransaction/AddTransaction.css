@@ -1,0 +1,65 @@
+.add-transaction-container{
+    /* border:1px solid blue; */
+    width:40%;
+    position:relative;
+}
+
+.float-button{
+    position:absolute;
+    top:5px;
+    width:70px;
+    height:70px;
+}
+
+.float-button.ant-float-btn .ant-float-btn-body .ant-float-btn-content{
+    padding: 0px;
+}
+
+.float-button.ant-float-btn .ant-float-btn-body .ant-float-btn-content .ant-float-btn-icon{
+    width:70px;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.float-icon{
+    font-size: 40px;
+    /* border:1px solid blue; */
+}
+
+.form-visible-transform{
+    transform: rotate(-90deg);
+    transition: transform 0.8s ease;
+}
+
+.form-hide-transform{
+    transform: rotate(90deg);
+    transition: transform 0.8s ease;
+}
+
+.transaction-form{
+    position: relative;
+    /* margin: auto; */
+    /* border:1px solid blue; */
+    margin-top:100px;
+}
+
+.transaction-form-button{
+    position: absolute;
+    left:5%;
+    /* width:50px; */
+    /* border:1px solid blue; */
+    /* background-color: green; */
+}
+
+.form-visible{
+    opacity:1;
+    transition: opacity 0.8s ease;
+}
+
+.form-hide{
+    opacity:0;
+    pointer-events: none;
+    transition: opacity 0.8s ease;
+}
